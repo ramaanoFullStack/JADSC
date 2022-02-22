@@ -305,3 +305,52 @@ function checkObj(obj, checkProp) {
     }
     // Only change code above this line
 }
+
+// Manipulating Complex Objects
+
+//Challenge
+
+/*
+Add a new album to the myMusic array.
+Add artist and title strings, release_year number, and a formats array of strings.
+*/
+
+const myMusic = [
+    {
+        "artist": "Billy Joel",
+        "title": "Piano Man",
+        "release_year": 1973,
+        "formats": [
+            "CD",
+            "8T",
+            "LP"
+        ],
+        "gold": true
+    }
+];
+
+//Solution
+
+const myMusic = [
+    {
+        "artist": "Billy Joel",
+        "title": "Piano Man",
+        "release_year": 1973,
+        "formats": [
+            "CD",
+            "8T",
+            "LP"
+        ],
+        "gold": true
+    },
+    {
+        "artist": "Tim Tam",
+        "title": "Cho Cho",
+        "release_year": 2022,
+        "formats": [
+            "MP3",
+            "ALAC",
+            "DSD"
+        ]
+    }
+];
