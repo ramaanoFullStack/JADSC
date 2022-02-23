@@ -24,9 +24,9 @@ while (i > -1) {
     i--;
 }
 
-//Iterate with Javascript For loops
+// Iterate with Javascript For loops
 
-//Challenge
+// Challenge
 
 /*
 Use a for loop to push the values 1 through 5 onto myArray.
@@ -44,5 +44,28 @@ const myArray = [];
 
 // Only change code below this line
 for (let i = 1; i < 6; i++){
+    myArray.push(i);
+}
+
+// Iterate Odd Numbers With a For Loop
+
+// Challenge
+
+/*
+Push the odd numbers from 1 through 9 to myArray using a for loop.
+*/
+
+// Setup
+const myArray = [];
+
+// Only change code below this line
+
+// Solution
+
+// Setup
+const myArray = [];
+
+// Only change code below this line
+for (let i = 1; i < 11; i += 2){
     myArray.push(i);
 }
