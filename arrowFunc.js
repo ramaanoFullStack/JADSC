@@ -52,7 +52,7 @@ const increment = (number, value) => number + value;
 
 const increment = (number, value = 1) => number + value;
 
-// Use the Rest Parameter with Function Parameters
+// Use the **Rest Parameter with Function Parameters
 
 // Challenge
 
@@ -72,5 +72,26 @@ const sum = (...args) => {
 }
 console.log(sum(5))
 
+// Use the **Spread Operator to Evaluate Arrays In-Place
 
+// Challenge
 
+/*
+Copy all contents of arr1 into another array arr2 using the spread operator.
+*/
+
+const arr1 = ['JAN', 'FEB', 'MAR', 'APR', 'MAY'];
+let arr2;
+
+arr2 = [];  // Change this line
+
+console.log(arr2);
+
+// Solution
+
+const arr1 = ['JAN', 'FEB', 'MAR', 'APR', 'MAY'];
+let arr2;
+
+arr2 = [...arr1];  // Change this line
+
+console.log(arr2);
