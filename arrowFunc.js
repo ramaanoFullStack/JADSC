@@ -34,3 +34,22 @@ console.log(myConcat([1, 2], [3, 4, 5]));
 
 const myConcat = (arr1, arr2) => arr1.concat(arr2);
 console.log(myConcat([1, 2], [3, 4, 5]));
+
+// Set Default Parameters for Your Functions
+
+// Challenge
+
+/*
+Modify the function increment by adding default parameters so that it will add 1 to number if value is not specified.
+*/
+
+// Only change code below this line
+const increment = (number, value) => number + value;
+
+// Only change code above this line
+
+// Solution
+
+const increment = (number, value) => number + value;
+
+
